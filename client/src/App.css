@@ -1,0 +1,174 @@
+
+body:before {
+	content:"";
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	display:block;
+	background:url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png") no-repeat 50% 50%;
+	background-size:cover;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 20px;
+
+}
+.nav-ul li a{
+  text-decoration: none;
+  color:#ef0707;
+  font-weight: bold;
+}
+
+.nav-ul {
+  background-color:rgb(10, 29, 29);
+  
+  margin: 0;
+  padding: 0;
+}
+.foter{
+  /* background-color: rgb(9, 9, 9); */
+    /* height: 100px; */
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    /* color:rgb(233, 17, 17);
+    text-align: center; */
+    margin-top: 250px;
+}
+.m3{
+  margin-left: 40%;
+}
+.inputbox{
+  display: block;
+  margin: 25px;
+  padding: 18px;
+  color: black;
+
+  width: 300px;
+  border:1px solid rgb(164, 164, 237);
+
+}
+.bttn{
+  font-size: 15px;
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color:rgb(238, 204, 185);
+  cursor: pointer;
+}
+.right{
+  text-align: right;
+
+  
+}
+.mar{
+  margin-right: 60px;
+}
+.logopic{
+  width:110px;
+  float:left;
+  height: 60px;
+}
+.ml{
+  margin-left: 40%;
+}
+.addbtn{
+  margin-left:25px;
+  border-radius: 20px;
+  padding:20px;
+  background-color: royalblue;
+  width:200px
+
+}
+.invalid-input{
+  color:red;
+  display: block;
+  margin-top: -25px;
+  margin-left: 30PX;
+}
+.widt{
+  width: 80%;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.heading{
+  
+  color:orange;
+  margin-left:150px;
+  background-color:black ;
+  width:250px;
+  margin-top: 50px;
+}
+.search{
+  margin-left:150px;
+  margin-top:50px;
+  margin-bottom:-40px;
+}
+.searchtxt{
+  padding:15px;
+  border-radius: 10px;
+  width:250px;
+  font-size:20px;
+  height: 50px;
+}
+
+.searchbtn{
+  padding:10px;
+  background-color: rgb(68, 68, 152);
+  width:120px;
+  border-radius: 10px;
+  font-size:20px;
+  margin-top:8px;
+  margin-left: 10px;
+  color:white
+}
+
+
+
+
+
+
+
